@@ -1,0 +1,22 @@
+working process:
+
+how java will work na code vandhu java code send into java compiler adhu byet code aah maatudhu and then that will send to jvm (java virtual machine) it change the byte cide to machine readbale code and and then it execute this is step how java code work.
+
+java is object oriented thats why we put class in every starting of the code.
+
+semicolon must ;;;;;
+
+variable and data types:
+
+variable are containers adhu vadnhu nambalku oru value va store panradu. oru place like number 10 store in a variable .
+
+eg;
+
+int ten = 10;
+System.out.print(ten); ##10
+
+ten is a variable that store the value 10.
+sss
+
+
+
