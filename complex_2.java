@@ -7,12 +7,14 @@ class complex_2{
         System.out.print("enter the name:");
         String name = sc.nextLine();
 
-        sc.nextLine(); 
+        
         
         System.out.print("enter the score out of 100:");
-        int score = sc.nextInt(); 
+        double score = sc.nextDouble(); 
 
         double score1 = score/10;
+
+        sc.nextLine();
 
         System.out.print("enter the dept:");
         String dept = sc.nextLine(); 
