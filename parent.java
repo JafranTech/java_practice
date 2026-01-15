@@ -1,19 +1,27 @@
-class Parent {
-    int money = 10000;
-
-    void house() {
-        System.out.println("Parent house");
+class Vehicle {
+    void fuel() {
+        System.out.println("Uses fuel");
     }
 }
 
-class Child extends Parent {
-    void car() {
-        System.out.println("Child car");
+class Car extends Vehicle {
+    void wheels() {
+        System.out.println("4 wheels");
     }
+}
 
+class Bike extends Vehicle {
+    void wheels() {
+        System.out.println("2 wheels");
+    }
+}
+
+public class Test {
     public static void main(String[] args) {
-        Parent par = new Parent();
-        par.house();
+        Car c = new Car();
+        c.fuel();
 
+        Bike b = new Bike();
+        b.fuel();
     }
 }
