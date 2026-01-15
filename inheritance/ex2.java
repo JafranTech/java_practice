@@ -1,9 +1,10 @@
-package inheritance;
+
 class vehicle{
     String brand;
     int year;
 
     void startengine(){
+        System.out.println("brand is "+brand);
     }
 }
 
@@ -13,13 +14,16 @@ class car extends vehicle{
     void startengine(){
         System.out.println("car engine starts");
     }
-}
 
 
     void drive(){
         System.out.println("car is driving");
     }
 
+}
+
+
+    
 
 class truck extends vehicle{
     int loadcapacity;
@@ -32,7 +36,17 @@ class truck extends vehicle{
         System.out.println("truck is hauling");
     }
 }
-public class ex2 {
 
+
+public class ex2 {
+    public static void main(String[] args) {
+        vehicle v = new vehicle();
+        v.brand="volkswagen";
+        v.year=2029;
+
+        System.out.println("brand: " + v.brand);
+        v.startengine();
+
+    }
     
 }
