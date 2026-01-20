@@ -29,7 +29,7 @@ class employee extends person{
 }
 
 
-public class static1 {
+public class access {
     public static void main(String[] args) {
         employee e = new employee("jafran",18,99,"crescent");
     }
