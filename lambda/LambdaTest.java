@@ -1,5 +1,5 @@
-package lambda;
-public interface InnerLambdaTest {
+
+interface InnerLambdaTest {
     void hello();
 
     
@@ -7,10 +7,10 @@ public interface InnerLambdaTest {
 public class LambdaTest {
 
     public static void main(String[] args) {
-        InnerLambdaTest i => (){
+        InnerLambdaTest i = ()->{
             System.out.println("hello");
         };
 
-        
+         
     }
 }
