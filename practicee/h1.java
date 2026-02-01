@@ -22,7 +22,7 @@ public class h1{
 
         int var =c.calculate(10, 5);
         int var1 =c.calculate(10, 5,6);
-        int var2 =c.calculate(15000,10);
+        double var2 =c.calculate((double)15000,(double)10);
 
         System.out.println(var + "\n" + var1 + "\n" + var2);
     }
