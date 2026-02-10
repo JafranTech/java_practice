@@ -1,0 +1,32 @@
+To build this project with Spring Boot (Backend) and React (Frontend), you will need to download and install the following tools.
+
+I have updated your 
+Task List
+ with this checklist.
+
+1. Java Development Kit (JDK)
+Required for: Running the Spring Boot backend.
+Version: JDK 17 or JDK 21 (Spring Boot 3 requires Java 17+).
+Download: Oracle JDK or OpenJDK (Eclipse Temurin).
+Verify: Open your terminal (Command Prompt/PowerShell) and run: java -version
+2. Node.js
+Required for: Running React and installing packages (npm).
+Version: LTS (Long Term Support) version (e.g., v18 or v20).
+Download: Node.js Official Website.
+Verify: Run: node -v and npm -v
+3. MySQL Server
+Required for: The database to store all application data.
+Download: MySQL Community Server.
+GUI Tool: I strongly recommend installing MySQL Workbench (often included in the installer) to manage your database visually.
+Alternative: You can use XAMPP or WAMP if you are comfortable with them, but a standalone MySQL install is cleaner for Spring Boot.
+4. Code Editors (IDEs)
+For Java (Backend): IntelliJ IDEA Community Edition.
+Download IntelliJ - It has excellent support for Spring Boot even in the free version.
+For React (Frontend): VS Code.
+Download VS Code - The industry standard for web development.
+5. Postman (Optional)
+Required for: Testing your backend APIs (Login, Order Placement) before the frontend is ready.
+Download Postman
+Action Plan:
+
+Please install these tools if you haven't already.

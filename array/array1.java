@@ -6,7 +6,7 @@ public class array1 {
 
         String[] playlist = new String [4];
 
-        playlist[] = "hello1";
+        playlistk[] = "hello1";
 
         String[] palylist = new String [4];
 
