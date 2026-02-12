@@ -8,8 +8,8 @@ class Emailexception extends Exception {
     }
 }
 
-class Mobile_number_not_valid extends Exception{
-    Mobile_number_not_valid(String a){
+class Mobile_number_not_valid extends Exception {
+    Mobile_number_not_valid(String a) {
         super(a);
     }
 }
@@ -34,30 +34,29 @@ public class details {
 
         System.out.print("enter your mobile");
 
-        try{
+        try {
             long mobile = sc.nextLong();
-            int length = String.valueOf(mobile).length();
 
-            if(mobile != length) {
-                throw new Mobile_number_not_valid("invalid number:number should be minimum 10 numbers");
-            }
-            else{
+            String s = String.valueOf(mobile);
+            int len = s.length();
 
-            }
             
 
-        }catch(Exception e){
+            if () {
+                throw new Mobile_number_not_valid("invalid number:number should be minimum 10 numbers");
+                
+            } else {
+                System.out.println("successfully regiterd mobile number");
+            }
+
+        } catch (Exception e) {
             System.out.println(e);
         }
-        
 
         sc.nextLine();
 
-        
         System.out.print("enter you email address:");
-        
 
-        
         try {
             String email = sc.nextLine();
             if (!email.contains("@")) {
@@ -71,6 +70,5 @@ public class details {
 
         }
 
-        
     }
 }
