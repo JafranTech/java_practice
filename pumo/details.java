@@ -40,11 +40,9 @@ public class details {
             String s = String.valueOf(mobile);
             int len = s.length();
 
-            
-
-            if () {
+            if (len != 10) {
                 throw new Mobile_number_not_valid("invalid number:number should be minimum 10 numbers");
-                
+
             } else {
                 System.out.println("successfully regiterd mobile number");
             }
