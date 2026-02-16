@@ -6,6 +6,9 @@ public class type_conversion {
 
         int c =100;
 
+        long aa=10000;
+        int bb = (int)aa;
+
         System.out.println( c);
     }
 }

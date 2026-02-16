@@ -7,12 +7,14 @@ public class returnn {
         return "hello" ;
     }
 
-    static int age(int age){
-        return age;
+    static int age(){
+        
+        int age1 =19;
+        return age1;
     }
     public static void main(String[] args) {
         System.out.println(hello());
 
-        System.out.println(age(19));
+        System.out.println(age());
     }
 }
