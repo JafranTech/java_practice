@@ -55,6 +55,7 @@ public class Payment {
 
         System.out.print("Enter th payment option : ");
         int option = sc.nextInt();
+        payment p;
 
         if (option == 1) {
             System.out.print("Enter the amount :");
