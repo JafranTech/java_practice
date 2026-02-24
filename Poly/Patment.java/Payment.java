@@ -1,10 +1,10 @@
 
 import java.util.*;
 
-class payment {
+abstract class payment {
     int balance = 1500;
 
-    void pay(int amount) { // parent method must contain the sneding amount value that time only it will
+    abstract void pay(int amount) ;// parent method must contain the sneding amount value that time only it will
                            // work
         /*
          * Compiler checks reference type.
@@ -14,7 +14,7 @@ class payment {
          * Parent must declare method for polymorphism to work.
          */
 
-    }
+    
 }
 
 class CreditCardPayment extends payment {
@@ -49,14 +49,12 @@ class Gpay extends payment {
 
 public class Payment {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         System.out.println(
                 "Choose the payment method " + "\n(1):\tCreditCardPayment" + "\n(2):\tUPIpayment" + "\n(3):\tGpay");
 
         System.out.print("Enter th payment option : ");
         int option = sc.nextInt();
-        payment p;
 
         if (option == 1) {
             System.out.print("Enter the amount :");

@@ -10,12 +10,13 @@ public class Master_soft {
     private String password;
     long range =230081601001l;
 
-    public void setrrn(long rrn){
+    public boolean setrrn(long rrn){
         
         if (rrn>=range) {
             this.rrn=rrn; 
+            return true;
         }else{
-            System.out.println("invalid rrn try again!!");
+            return false;
         }
     }
 
@@ -37,14 +38,24 @@ public class Master_soft {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        Master_soft ms = new Master_soft();
 
         Boolean valid = false;
-        System.out.print("Enter the RRN :");
-        long rrn = sc.nextLong();
 
-        Master_soft ms = new Master_soft();
+        while (!valid) { //valid ==false
+            System.out.print("Enter the RRN :");
+        long rrn = sc.nextLong();
+        valid = ms.setrrn(rrn);
+
+        if (!valid) { //valid ==false
+            System.out.println("rrn must be start at 230081601040.");
+        }
+        }
         
-        ms.setrrn(rrn);
+
+        
+
+        
         System.out.println(ms.getrrn());
 
         
