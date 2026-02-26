@@ -35,7 +35,7 @@ public class ATMSystem {
         }
 
         // Withdraw method
-        public void withdraw(double amount) {
+        public void (double amount) {
             if (amount > 0 && amount <= balance) {   // Check balance
                 balance -= amount;                   // Deduct amount
                 System.out.println("Withdrawn: " + amount);
