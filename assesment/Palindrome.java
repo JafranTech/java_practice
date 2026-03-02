@@ -10,7 +10,7 @@ public class Palindrome {
 
         while (num>0) {
             int digit = num%10;
-            s
+            
 
             reverse=reverse*10+digit;
             System.out.println("rev"+reverse);

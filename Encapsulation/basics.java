@@ -45,8 +45,7 @@ public class basics {
         System.out.println("enter the pin:");
         int pin=sc.nextInt();
         System.out.println(b.pin);
-        boolean og=b.correctpin();
-        System.out.println(og);
+        
             while (og==true) {
                 System.out.println("enter the option 1.deposit" + "\n2.balance"+"3.witdraw");
             sc.next();
