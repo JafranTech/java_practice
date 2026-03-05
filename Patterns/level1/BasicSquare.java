@@ -1,4 +1,4 @@
-package Patterns;
+
 
 public class BasicSquare {
     public static void main(String[] args) {
