@@ -8,6 +8,7 @@ class Student {
 
 public class practice {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         Student s1 = new Student();
         Student s2 = new Student();
         Student s3 = new Student();
@@ -26,9 +27,21 @@ public class practice {
         st[1]=s2;
         st[2]=s3;
 
-        for(int i = 0;i<st.length;i++){
-            System.out.println(st[i].age+" "+st[i].name);
+        for(Student s:st){
+            System.out.println(s.age + " "+s.name);
         }
 
+        // for(int i = 0;i<st.length;i++){
+        //     System.out.println(st[i].age+" "+st[i].name);
+        // }
+        // int c =0;
+        // int n[]=new int[3];
+        // for(int nn : n){
+        //     n[nn]=sc.nextInt();
+        //     // c+=n[nn];
+        //     c=c+n[nn];
+        // }
+        // System.out.println(c);
+        String
     }
 }
