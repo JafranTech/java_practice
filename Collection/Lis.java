@@ -7,6 +7,10 @@ public class Lis {
     Map <String,Integer> obj = new TreeMap<>();
 
     obj.put("Ashik",101);
+    obj.put("Jafran",102);
+    obj.put("Abdullah", 200);
+
+    System.out.println(obj);
 
 
 
